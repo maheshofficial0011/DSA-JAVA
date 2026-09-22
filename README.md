@@ -1,14 +1,25 @@
 # DSA-JAVA
 
-My structured Data Structures & Algorithms journey using Java.
+A structured Data Structures & Algorithms learning journey using Java.
 
-This repository tracks daily practice, problem solving, debugging, mistakes, patterns, revision notes, achievements, and progress.
+This repository is built to document not only final solutions, but also the reasoning, first attempts, debugging, mistakes, patterns, revision and progress behind each problem.
 
-## Roadmap
+## 📊 DSA Journey Dashboard
+
+| Metric | Current Status |
+|---|---|
+| Phase | Phase 0 — Foundations |
+| Day | Day 1 completed |
+| Problems | 6 |
+| Current Streak | 🔥 1 day |
+| Main Language | Java |
+| Status | 🟢 Active |
+
+## 🗺️ Roadmap
 
 | Phase | Topic | Status |
 |---|---|---|
-| 0 | Foundations | 🟢 Day 1 completed |
+| 0 | Foundations | 🟢 In progress |
 | 1 | Arrays & Strings | ⏳ Upcoming |
 | 2 | Searching & Sorting | ⏳ Upcoming |
 | 3 | Linked Lists | ⏳ Upcoming |
@@ -21,30 +32,69 @@ This repository tracks daily practice, problem solving, debugging, mistakes, pat
 | 10 | Dynamic Programming | ⏳ Upcoming |
 | 11 | Advanced DSA | ⏳ Upcoming |
 
-## Structure
+## 📁 Repository Architecture
 
-```text
-DSA-JAVA/
-├── Phase-0-Foundations/Day01/
-├── DSA-Journal/Daily/
-├── DSA-Journal/Weekly/
-├── DSA-Journal/Monthly/
-├── Mistake-Book/Bugs/
-├── Mistake-Book/Concept-Mistakes/
-├── Achievements/
-├── Progress/
-└── Revision/
-```
+- **00-Getting-Started/** — roadmap, setup, standards and workflow
+- **01-Foundations/ → 12-Advanced-DSA/** — topic-level learning areas
+- **Phase-0-Foundations/** — original Day 1 implementation history
+- **Learning-Archive/** — detailed learning journey, attempts, dry runs and lessons
+- **Problem-Solving/** — structured problem records by difficulty
+- **Patterns/** — reusable DSA patterns and templates
+- **Mistake-Book/** — bugs, concept, logic, complexity and recurring mistakes
+- **Revision/** — quick-reference and interview revision material
+- **Progress/** — daily, weekly, monthly, phase and overall tracking
+- **Achievements/** — milestones and streak tracking
+- **Notes/** — interview, competitive programming and platform-specific notes
 
-## Day 1
+## 🧠 Day 1 Completed
 
-- DSA basics
+- DSA fundamentals
 - Big-O and complexity
 - Array indexing and traversal
 - Maximum and minimum
 - Sum and counting
-- In-place reverse with two pointers
+- In-place array reversal using two pointers
 - Second-largest distinct element
 - Debugging and edge cases
 
+## 🔁 Standard Problem Workflow
+
+**Understand → Example → Brute Force → Complexity → Optimize → Code → Test → Debug → Record**
+
+Every future problem should preserve the important reasoning behind the solution, not just the final code.
+
+## 🧩 Problem Record
+
+When a problem needs a detailed record, use:
+
+- Problem statement
+- Thought process
+- Brute-force approach
+- Optimized approach
+- Dry run
+- Java solution
+- Complexity
+- Edge cases
+- Mistakes and lessons
+
+Small problems can use fewer files when a full record would add unnecessary overhead.
+
+## 📈 Progress Philosophy
+
+Progress is based on actual understanding and practice.
+
+A topic is considered complete only after concepts, implementation, problem solving, debugging and revision have been covered.
+
+## 🏆 Learning Philosophy
+
 > Consistency over speed. Understand first, memorize later.
+
+The goal is to become better at **thinking through problems**, recognizing patterns, writing clean Java, analyzing complexity and learning from mistakes.
+
+## 👨‍💻 Language
+
+Primary implementation language: **Java**
+
+## 🔗 Repository
+
+GitHub: https://github.com/maheshofficial0011/DSA-JAVA
